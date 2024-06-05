@@ -11,7 +11,8 @@
     "test:cy": "npm run test:ct && npm run test:e2e",
     "test:e2e": "cypress run --headless",
     "test:ct": "cypress run --component --headless",
-    "test:snap": "vitest"
+    "test:snap": "vitest",
+    "test:gsnap": "vitest -u"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.4.2",
